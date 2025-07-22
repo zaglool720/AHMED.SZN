@@ -1,0 +1,279 @@
+<!DOCTYPE html> 
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AHMED.SZN☠💀</title>
+<style>
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b0c10;
+    color: #c5c6c7;
+    overflow-x: hidden;
+    line-height: 1.8;
+  }
+  nav {
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    background: rgba(11,12,16,0.95);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    z-index: 1000;
+  }
+  nav .logo {
+    font-size: 1.8rem;
+    color: #66fcf1;
+    font-weight: bold;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  nav ul li a {
+    color: #c5c6c7;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  nav ul li a:hover {
+    color: #45a29e;
+  }
+  header {
+    height: 100vh;
+    background: url('photo_83-1.jpg') center center/cover no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(11,12,16,0.85);
+  }
+  header .content {
+    position: relative;
+    max-width: 700px;
+    color: #66fcf1;
+    z-index: 1;
+    text-align: center;
+  }
+  header .content h1 {
+    font-size: 4.5rem;
+    margin-bottom: 10px;
+    animation: fadeInDown 1.2s ease forwards;
+  }
+  header .content p {
+    font-size: 1.7rem;
+    margin-bottom: 25px;
+    animation: fadeInUp 1.2s ease forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+  }
+  header .content button {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    background: #45a29e;
+    border: none;
+    border-radius: 30px;
+    color: #0b0c10;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    animation: fadeInUp 1.2s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+  }
+  header .content button:hover {
+    background: #66fcf1;
+    color: #0b0c10;
+  }
+  @keyframes fadeInDown {
+    from {opacity: 0; transform: translateY(-20px);}
+    to {opacity: 1; transform: translateY(0);}
+  }
+  @keyframes fadeInUp {
+    to {opacity: 1; transform: translateY(0);}
+  }
+  main {
+    max-width: 900px;
+    margin: 80px auto 50px auto;
+    padding: 0 20px;
+    color: #c5c6c7;
+  }
+  main h2 {
+    color: #66fcf1;
+    margin-bottom: 35px;
+    border-bottom: 3px solid #45a29e;
+    padding-bottom: 10px;
+  }
+  main p {
+    margin-bottom: 25px;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  .photo-block {
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .photo-block img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 3px solid #45a29e;
+    box-shadow: 0 0 20px #45a29e88;
+    transition: transform 0.3s ease;
+  }
+  .photo-block img:hover {
+    transform: scale(1.12);
+  }
+  section#contact {
+    margin-top: 90px;
+  }
+  .contact-info p {
+    font-size: 1.25rem;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .contact-info a {
+    color: #66fcf1;
+    text-decoration: none;
+  }
+  footer {
+    background: #1f2833;
+    text-align: center;
+    color: #45a29e;
+    padding: 20px;
+    font-size: 1rem;
+  }
+  @media(max-width: 768px) {
+    header .content h1 {
+      font-size: 3.5rem;
+    }
+    header .content p {
+      font-size: 1.2rem;
+    }
+    .photo-block {
+      flex-direction: column;
+      align-items: center;
+    }
+    .photo-block img {
+      width: 90%;
+      height: auto;
+      max-height: 350px;
+    }
+  }
+</style>
+<script>
+function scrollToSection(id) {
+  document.getElementById(id).scrollIntoView({behavior: 'smooth'});
+}
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="logo">احمد السيد</div>
+  <ul>
+    <li><a href="#projects">مشاريعي</a></li>
+    <li><a href="#education">تعليمي</a></li>
+    <li><a href="#values">قيم ومبادئ</a></li>
+    <li><a href="#contact">تواصل</a></li>
+  </ul>
+</nav>
+
+<header>
+  <div class="content">
+    <h1>احمد السيد</h1>
+    <p>اهلا بك كأول زائر في موقعي الشخصي! اسمي احمد السيد, وأنا متخصص في قسم البرمجة ومطور مواقع وتطبيقات أعمل بشغف منذ فترات طويلة في عالم تكنولوجيا المعلومات.</p>
+    <button onclick="scrollToSection('projects')">اكتشف أكثر</button>
+  </div>
+</header>
+
+<main>
+
+  <section id="projects">
+    <h2>
+مشاريعي</h2>
+    <p> في الحقيقه معنديش مشاريع كتير بس انا كان دايما بحب اعمل حاجات محدش في سني بيعملها  وجربت مثلا اعمل تصاميم علي adobe photoshop بس للأسف معملتش غير 3 ولا 4 بس من التصاميم وده صور التصاميم اللي ظاهرة قدام حضراتكم دلوقتي👇🏻</p>
+
+    <div class="photo-block">
+      <img src="photo_83-10.jpg" alt="مشاريعي صورة 2" />
+      <img src="photo_83-11.jpg" alt="مشاريعي صورة 3" />
+      <img src="photo_83-12.jpg" alt="مشاريعي صورة 4" />
+      <img src="photo_83-24.jpg" alt="مشاريعي صورة 4" />
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>تعليمي
+</h2>
+    <p>انا في الاول كنت بدرس في مدرسة وجيه اباظة الاعدادية بنين وبعد كده جبت مجموع 250 من 280 ودخلت مدرسه WE للتكنولوجيا التطبيقية في الاول مكنتش مرتاح لأنهم كانوا بيدرسوا كل حاجه باللغه الانجليزية وكان الموضوع جديد عليا شوية,بعد كده الدنيا بدأ تتبسط عليا اكتر في اكتر ,ولقيت نفسي مميز في حاجات مكنتش اعرفها زي اني بعرف استخدم الكمبيوتر في POWERPOINT , WORD , واختصارات كتير في الكمبيوتر نفسه </p>
+
+    <div class="photo-block">
+      <img src="photo_83-13.jpg" alt="تعليمي صورة 1" />
+      <img src="photo_83-14.jpg" alt="تعليمي صورة 2" />
+      <img src="photo_83-15.jpg" alt="تعليمي صورة 3" />
+      <img src="photo_83-22.jpg" alt="تعليمي صورة 3" />
+
+    </div>
+  </section>
+
+  <section id="values">
+    <h2>قيم ومبادئ
+</h2>
+    <p> مخلص جدا لعملي   وطول مانا حابب اللي انا بعمله وشايفه شيئ محترم والناس بتحترمني عشانه خليك عارف وقتها اني هطلعلط افضل ما عندي من نتائج ,كمان مؤمن ان التعليم ولا بالعافيه ولا برفع الصورت ولا بالضرب ,انت لو علمتني بالاحترام والعقل هعتبرك اخويا او اختي وهتعلم غصب عني وهحب كمان مادتك عن اي ماده</p>
+
+    <div class="photo-block">
+      <img src="photo_83-4.jpg" alt="قيم ومبادئ صورة 2" />
+      <img src="photo_83-5.jpg" alt="قيم ومبادئ صورة 3" />
+      <img src="photo_83-6.jpg" alt="قيم ومبادئ صورة 4" />
+            <img src="photo_83-17.jpg" alt="هواياتي صورة 1" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>تواصل</h2>
+    <div class="contact-info">
+      <p>
+ <img src="https://img.icons8.com/color/48/000000/new-post.png" alt="البريد الإلكتروني" />
+البريد الإلكتروني: <a href="mailto:zaghloul@example.com">ahmed.elsaid.24003@gmail.com</a></p>
+      <p><a href="tel:+201098642203" target="_blank">
+  
+</a>
+ <img src="https://img.icons8.com/ios-filled/50/fa314a/phone.png" alt="هاتف أحمر" />
+الهاتف: <a href="tel:+201234567890">01098642203</a></p>
+      <p>
+ <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="واتساب" />
+واتساب: <a href= target="_blank">01098642203</a></p>
+      <p><img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="فيسبوك" />
+ فيسبوك: <a href="https://facebook.com/zaghloul" target="_blank">ahmedzaglool.face@gmail.com</a></p>
+      <p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  جميع الحقوق محفوظة+دعوة حلوة من قلبك&copy; 2025 - 
+  زغلول❤
+  اخويا القصير❤
+  عسلية❤
+</footer>
+
+</body>
+</html>
